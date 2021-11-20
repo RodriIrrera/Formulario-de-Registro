@@ -1,1 +1,1 @@
-<a href="consultas.php">.# Formulario-de-Registro</a>
+<a href="consultas.php">Formulario-de-Registro</a>
