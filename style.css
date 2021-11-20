@@ -1,0 +1,176 @@
+body {
+    background: #ddd;
+    font-family: monospace;
+}
+
+.container-table {
+    width: 90%;
+    background: white;
+    margin: 1rem auto;
+    box-shadow: 0 0 20px #333;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 3rem;
+    position: relative;
+}
+
+.table_title {
+    margin: 0;
+    padding: 0.5rem;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    background: rgba(120,65,40,1);
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.table_header, .table_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table_header {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.table_item {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.container-add {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.container_title {
+    margin: 0;
+    padding: 1rem;
+    background: rgba(120, 65, 40, 1);
+    color:white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.container_form {
+    background: white;
+    box-shadow: 0 0 2rem #333;
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container_label {
+    font-size: 1rem;
+    width: 20%;
+}
+
+.container_input {
+    width: 25%;
+    margin-right: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+
+.container_submit {
+    background: rgba(120,65,40,1);
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    margin: 0.5rem auto;
+    width: 10rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.title_edit {
+    position: absolute;
+    right: 7%;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.title_edit:hover {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.container-table-edit {
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+    min-width: 56rem;
+    grid-auto-rows: 3rem;
+    position: relative;
+}
+
+.table_title_edit {
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.container-table-editado {
+    grid-template-columns: repeat(7, 1fr);
+    width: 100%;
+    min-width: 56rem;
+    grid-auto-rows: 2 rem;
+}
+
+.table_title_editado {
+    grid-column-start: 1;
+    grid-column-end: 8;
+}
+
+.table_input {
+    display: block;
+    font-size:0.8rem;
+    padding: 0.3rem;
+    margin: 0.3rem;
+}
+
+.container_submit_actualizar {
+    background: rgba(120,65,40,1);
+    padding: 0.3rem;
+    margin: 0.3rem auto;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.container_submit_actualizar:hover {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.home {
+    position: absolute;
+    left: 7%;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    color:white;
+    margin-left: 0rem;
+    background:rgba(120,65,40,1);
+}
+
+.home:hover {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.table_item_mod, .table_item_del {
+    text-decoration: none;
+    color:black;
+}
+
+.table_item_mod:hover, .table_item_del:hover {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
